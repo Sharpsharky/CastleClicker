@@ -18,7 +18,9 @@ The game can be extended by a couple of interesting features. It has a lack of s
 
 **Quantity** is a class that avoids the problem of big numbers. There is no such possibility to assign to variables any number, too big or too small. For example, the biggest float number is 3.40282347E+38 and it has to be assumed that the player would generate bigger amounts of supplies. Due to this problem, the class solves this problem and is able to create a number bigger than the given one. The idea is to create a list of integers and in every element store an amount in range between 0 and 999 which after connecting all the numbers, it results in a big number. In figure 4.13 there is shown an example of the class operating. The first column is a string representation of quantity. It means what kind of letter will appear after the displayed number. For example instead of 1000 - 1K. A quantity number is a numerical representation of the individual quantities. The amount is the actual number stored in the quantity. In the example shown in the figure, there can be seen that the result is 8,200,115,000.
 
-<img src="Images/quantityExample.png" align="center" width="450"/>
+<p align="center" width="100%">
+<img src="Images/quantityExample.png" width="25%"/>
+</p>
 
 ## Features
 
