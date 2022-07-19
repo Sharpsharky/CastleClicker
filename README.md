@@ -8,7 +8,7 @@ The project represents a very simple idle-clicker game for Android.
 
 Gathering supplies is the most important part of the gameplay. When the player taps on a building, a relevant supply adds up to a storage which appears in the top side of the screen symbolized by icons and magnitudes of owned supplies. Building new buildings will have an impact on what supplies the player may gather. Specific supplies will be used to build distinct buildings. The position of the buildings is going to appear on the selected by player free tiles. All buildings will be connected by a road represented also by tiles but it will only be a visual element of the game. The last mechanic allowed for the player is an improvement of buildings. The buildings will have different enhancement possibilities which may help with gathering supplies and automate the selected buildings. The improvements will also cost supplies which types will depend on the type of the building.
 
-<img src="Images/playersImpact.png" align="middle" width="1000"/>
+<img src="Images/playersImpact.png" align="middle" width="300"/>
 
 ## Game Enheancement
 
