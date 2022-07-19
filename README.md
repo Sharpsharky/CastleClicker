@@ -8,7 +8,7 @@ The project represents a very simple idle-clicker game for Android.
 
 Gathering supplies is the most important part of the gameplay. When the player taps on a building, a relevant supply adds up to a storage which appears in the top side of the screen symbolized by icons and magnitudes of owned supplies. Building new buildings will have an impact on what supplies the player may gather. Specific supplies will be used to build distinct buildings. The position of the buildings is going to appear on the selected by player free tiles. All buildings will be connected by a road represented also by tiles but it will only be a visual element of the game. The last mechanic allowed for the player is an improvement of buildings. The buildings will have different enhancement possibilities which may help with gathering supplies and automate the selected buildings. The improvements will also cost supplies which types will depend on the type of the building.
 
-<img src="Images/playersImpact.png" align="middle" width="300"/>
+<img src="Images/playersImpact.png" align="center" width="600"/>
 
 ## Game Enheancement
 
@@ -18,7 +18,7 @@ The game can be extended by a couple of interesting features. It has a lack of s
 
 **Quantity** is a class that avoids the problem of big numbers. There is no such possibility to assign to variables any number, too big or too small. For example, the biggest float number is 3.40282347E+38 and it has to be assumed that the player would generate bigger amounts of supplies. Due to this problem, the class solves this problem and is able to create a number bigger than the given one. The idea is to create a list of integers and in every element store an amount in range between 0 and 999 which after connecting all the numbers, it results in a big number. In figure 4.13 there is shown an example of the class operating. The first column is a string representation of quantity. It means what kind of letter will appear after the displayed number. For example instead of 1000 - 1K. A quantity number is a numerical representation of the individual quantities. The amount is the actual number stored in the quantity. In the example shown in the figure, there can be seen that the result is 8,200,115,000.
 
-<img src="Images/quantityExample.png" align="middle" width="700"/>
+<img src="Images/quantityExample.png" align="center" width="450"/>
 
 ## Features
 
